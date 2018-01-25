@@ -38,7 +38,9 @@ public class WebComponent {
 	public void openHomePage() {
 		log.info("Opening homepage");
 		driver.get(PROPERTY.UI_BASE_URL);
+/*
 		waitForAngular();
+*/
 		waitForLoading();
 	}
 	

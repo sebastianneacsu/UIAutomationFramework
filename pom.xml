@@ -148,12 +148,11 @@
                         <version>2.19.1</version>
                         <configuration>
                             <systemPropertyVariables>
-                                <CHROME_DRIVER_PATH>**********modify pom ***************</CHROME_DRIVER_PATH>
+                                <CHROME_DRIVER_PATH>C:\\chromedriver.exe</CHROME_DRIVER_PATH>
                                 <LONG_TIMEOUT>60</LONG_TIMEOUT>
                                 <SHORT_TIMEOUT>5</SHORT_TIMEOUT>
-                                <UI_BASE_URL>**********modify pom ***************</UI_BASE_URL>
+                                <UI_BASE_URL>https://www.google.be/</UI_BASE_URL>
                                 <REST_BASE_URL>**********modify pom ***************</REST_BASE_URL>
-
                                 <DB_URL>**********modify pom ***************</DB_URL>
                             </systemPropertyVariables>
                         </configuration>
